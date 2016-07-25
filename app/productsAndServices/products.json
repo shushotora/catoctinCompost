@@ -1,34 +1,41 @@
 [
-  {
-    "id" : "compost",
-    "title" : "Compost",
-    "img" : "productsAndServices/img/compost.png",
-    "relavence": 2
-  },
-  {
-    "id" : "disposal",
-    "title" : "Organic Waste Disposal",
-    "img" : "productsAndServices/img/collecting-organic-waste.png",
-    "relevance": 1
-  },
-  {
-    "id" : "tea",
-    "title" : "Vermicast Tea",
-    "img" : "productsAndServices/img/vermicast_tea.png",
-    "relevance": 3
-  },
-  {
-    "id" : "castings",
-    "title" : "Worm Castings",
-    "img" : "productsAndServices/img/castings.png",
-    "relevance": 4
-  },
-  {
-    "id" : "worms",
-    "title" : "Worms",
-    "img" : "productsAndServices/img/worms.png",
-    "relevance": 5
-  }
+	{
+		"id": "compost",
+		"title": "Compost",
+		"img": "productsAndServices/img/compost.png",
+		"relevance": 2,
+		"description": "productsAndServices/productInfo/compost.html"
+	},
 
+	{
+		"id": "disposal",
+		"title": "Organic Waste Disposal",
+		"img": "productsAndServices/img/collecting-organic-waste.png",
+		"relevance": 1,
+		"description": "productsAndServices/productInfo/disposal.html"
+	},
 
+	{
+		"id": "tea",
+		"title": "Vermicast Tea",
+		"img": "productsAndServices/img/vermicast_tea.png",
+		"relevance": 5,
+		"description": "productsAndServices/productInfo/tea.html"
+	},
+
+	{
+		"id": "castings",
+		"title": "Worm Castings",
+		"img": "productsAndServices/img/castings.png",
+		"relevance": 4,
+		"description": "productsAndServices/productInfo/castings.html"
+	},
+
+	{
+		"id": "worms",
+		"title": "Worms",
+		"img": "productsAndServices/img/worms.png",
+		"relevance": 3,
+		"description": "productsAndServices/productInfo/worms.html"
+	}
 ]

@@ -2,13 +2,13 @@
 
 
 <div class="panel panel-success"
-	ng-repeat="product in products | orderBy:orderProp">
+	ng-repeat="product in products | orderBy:'relevance'">
 	<div class="panel-heading">{{product.title}}</div>
 	<div class="panel-body">
 		<p>
 			<img ng-src="{{product.img}}" />
 		</p>
-		<p ipsum="2s"></p>
+		<div ng-include="product.description"></div>
 		<p>
 			<a class="btn btn-success" href="#products/{{product.id}}">Order
 				{{product.title}}</a>
