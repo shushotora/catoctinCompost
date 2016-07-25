@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="catoctinApp" class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Catoctin Compost</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- CSS -->
+<link rel="stylesheet"
+	href="bower_components/bootstrap/dist/css/bootstrap.css">
+<link rel="stylesheet"
+	href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css">
+	
+<link rel="shortcut icon" href="favicon.ico" />
+
+
+</head>
+<body>
+	<!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+	<div class="container-fluid">
+		<ng-include src="'header/header.html'"></ng-include>
+	</div>
+	<div class="container-fluid">
+		<ng-include src="'menu/menu.html'"></ng-include>
+		<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 panel panel-success"
+			ng-view></div>
+		<!-- <span class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><ng-include
+				src="'rightColumn/rightColumn.html'"></ng-include></span>-->
+	</div>
+	<div class="container-fluid">
+	<span ng-include src="'footer/footer.html'"></span>
+	</div>
+
+
+
+	<!-- Angular Import -->
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-route/angular-route.js"></script>
+	<script src="bower_components/angular-animate/angular-animate.js"></script>
+	<script src="bower_components/angular-touch/angular-touch.js"></script>
+	<script src="bower_components/angular-ipsum/dist/ipsum.min.js"></script>
+
+	<!-- Bootstrap -->
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+
+	<script
+		src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+
+	<!-- Angular Application -->
+	<script src="app.js"></script>
+	<script src="home/home.js"></script>
+	<script src="menu/menu.js"></script>
+	<script src="productsAndServices/productsAndServices.js"></script>
+	<script src="productsAndServices/productInfo/productInfo.js"></script>
+	<script src="about/about.js"></script>
+	<script src="contact/contact.js"></script>
+</body>
+</html>

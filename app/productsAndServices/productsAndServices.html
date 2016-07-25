@@ -1,0 +1,16 @@
+<h2>Products &amp; Services</h2>
+
+
+<div class="panel panel-success"
+	ng-repeat="product in products | orderBy:orderProp">
+	<div class="panel-heading">{{product.title}}</div>
+	<div class="panel-body">
+		<p>
+			<img ng-src="{{product.img}}" />
+		</p>
+		<p ipsum="2s"></p>
+		<p>
+			<a class="btn btn-success" href="#products/{{product.id}}">Order
+				{{product.title}}</a>
+	</div>
+</div>
